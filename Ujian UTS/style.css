@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Coming+Soon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: slateblue;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 10%;
+    justify-content: space-between;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 16px 0px 16px;
+}
+
+nav .logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:#F8B400;
+}
+
+
+
+
+
+
+
+
+
+
+.isi {
+    float: left;
+}
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.kolom .deskripsi {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #A1E3D8;
+}
+
+.kolom h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #1A132F;
+    width: 100%;
+    line-height: 50px;
+}
+
+.kolom p {
+    font-size: 30px;
+    color: #FFE61B;
+}
